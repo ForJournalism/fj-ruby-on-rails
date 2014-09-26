@@ -1,7 +1,7 @@
 Ruby on Rails for Journalism
 ============================
 
-## Get the kitchen running
+## Get the kitchen running on a Mac
 
 1. Download or clone this repository.
 2. Use Finder to get into the `done` directory.
