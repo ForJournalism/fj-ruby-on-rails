@@ -1,0 +1,24 @@
+<p>
+  <strong>Title:</strong>
+  <%= @meal.title %>
+</p>
+
+<p>
+  <strong>Chef:</strong>
+  <%= @meal.chef %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @meal.text %>
+</p>
+
+<h2>Comments</h2>
+<%= render @meal.comments %>
+
+<h2>Add a comment:</h2>
+<%= render "comments/form" %>
+
+<%= link_to 'Back', meals_path %>
+
+<%= link_to 'Edit', edit_meal_path(@meal) %>
